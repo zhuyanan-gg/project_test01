@@ -1,3 +1,21 @@
+// git --version   检测git安装的版本
+// 配置用户名和邮箱
+// git config --global user.name '你的姓名的拼音'
+// git config --global user.email '你的手机号@163.com'  '你的手机号126@com'  'qq.com'
+// 检测配置用户名和邮箱是否配置完毕
+// 运行这两行代码，如果能正常输出之前配置过的用户名和邮箱即代表配置成功
+// git config user.name
+// git config user.email
+// git config --list --global 查看全局所有的配置项
+// git config -h  获取帮助信息
+// 获取 git仓库 的两种方式：
+// 方式1：可以将本地的某个文件夹转换成 git仓库 （需要执行 git init 命令）
+// 方式2：可以直接从远程服务器克隆（拷贝）一份下来
+// git status //查看文件的状态 git status -s //精简的命令
+// git add 你要跟踪的文件的名称  //跟踪新文件
+// git commit -m '此次提交的记录信息' // 提交更新文件
+
+
 // git 第一天
 // 主要做代码托管（进公司第一天就要干的事）
 // 版本控制软件：用来记录文件的变化（新增文件、修改文件、删除文件等等操作; 用于团队协作）
@@ -79,3 +97,4 @@
  * 
  * 查看文件状态：git status
  */ 
+
