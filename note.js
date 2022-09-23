@@ -14,12 +14,13 @@
 // git status //查看文件的状态 git status -s //精简的命令
 // git add 你要跟踪的文件的名称  //将文件上传到暂存区
 // git add .  //将多个文件上传到暂存区
-// git commit -m '此次提交的记录信息' // 提交更新文件
-// git commit -a -m '提交本次修改'
+// git commit -m '此次提交的记录信息' // 提交更新文件到git仓库
+// git commit -a -m '提交本次修改'   //将所有文件跳过暂存直接添加到git仓库中
 // git checkout -- 你要撤销的文件名  //撤销对文件的修改 （注意：git chekcout 是让文件回到最近一次该文件git commit或git add时的状态）
 // git reset HEAd  你要移除的文件的名称 //从暂存区移除对应的文件 
 // git reset HEAd .  //从暂存区移除所有的文件
-
+// git rm -f 你要移除的文件名 //从git仓库和工作区中同时移除文件
+// git rm --cached 你要移除的文件名 //从git仓库中同时移除文件,保留工作区中的文件
 
 
 
