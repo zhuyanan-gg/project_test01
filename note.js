@@ -15,7 +15,12 @@
 // git add 你要跟踪的文件的名称  //将文件上传到暂存区
 // git add .  //将所有文件上传到暂存区
 // git commit -m '此次提交的记录信息' // 提交更新文件
-// git checkout -- 你要撤销的文件名  //撤销对文件的修改（未提交的）
+// git checkout -- 你要撤销的文件名  //撤销对文件的修改 （注意：git chekcout 是让文件回到最近一次该文件git commit或git add时的状态）
+
+
+
+
+
 
 
 // git 第一天
