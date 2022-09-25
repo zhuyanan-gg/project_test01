@@ -22,6 +22,9 @@
 // git reset HEAd .  //从暂存区移除所有的文件
 // git rm -f 你要移除的文件名 //从git仓库和工作区中同时移除文件
 // git rm --cached 你要移除的文件名 //从git仓库中同时移除文件,保留工作区中的文件
+
+
+//.gitignore 忽略文件
 // git log 查看提交历史
 
 

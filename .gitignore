@@ -2,4 +2,4 @@
 .html
 
 #忽略掉text文件
-text/
+/text
