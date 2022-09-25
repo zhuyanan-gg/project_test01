@@ -24,9 +24,10 @@
 // git rm --cached 你要移除的文件名 //从git仓库中同时移除文件,保留工作区中的文件
 
 
-//.gitignore 忽略文件
-// git log 查看提交历史
-
+//.gitignore //忽略文件
+// git log //查看提交历史  git log --pretty=oneline //查看历史提交记录并且只显示一行  git log --pretty=format:'%h|%an |%ar|%s' //查看完整的历史记录
+// git reset --hard （0ff863f文件id号） //回退某个版本
+// git reflog --pretty=oneline   //查看历史提交记录（包括回退时候也可以查看）
 
 
 
