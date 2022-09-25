@@ -8,7 +8,8 @@
 // git config user.email
 // git config --list --global 查看全局所有的配置项
 // git config -h  获取帮助信息
-// 获取 git仓库 的两种方式：
+
+// 获取 git仓库 的两种方式：   
 // 方式1：可以将本地的某个文件夹转换成 git仓库 （需要执行 git init 命令）
 // 方式2：可以直接从远程服务器克隆（拷贝）一份下来
 // git status //查看文件的状态 git status -s //精简的命令
